@@ -54,7 +54,7 @@ The task is to design a grid of product cards with the following features:
 
 #### Header CSS Styling
 
-- [ ] Padding, Margin, Font style for the header at desktop
+- [x] Padding, Margin, Font style for the header at desktop
   
 - [ ] Padding, Margin, Font style for the header at mobile 
 
