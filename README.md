@@ -56,7 +56,7 @@ The task is to design a grid of product cards with the following features:
 
 - [x] Padding, Margin, Font style for the header at desktop
   
-- [ ] Padding, Margin, Font style for the header at mobile 
+- [x] Padding, Margin, Font style for the header at mobile 
 
 #### Product Card holder div Stying 
 
