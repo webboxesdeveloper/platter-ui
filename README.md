@@ -44,7 +44,7 @@ The task is to design a grid of product cards with the following features:
 
 ### 1. **HTML Structure**
 
-- [ ] Header Design
+- [x] Header Design
 
 - [ ] Product Cards Displaying Div Design
 
