@@ -68,7 +68,7 @@ The task is to design a grid of product cards with the following features:
 
 - [x] Layout, Padding, Margin style for the **Product Image** at desktop
   
-- [ ] Layout, Padding, Margin style for the **Product Image** at mobile
+- [x] Layout, Padding, Margin style for the **Product Image** at mobile
   
 - [ ] Layout, Padding, Margin, Font style for the **Product Title**, **Rating and Review**, **Product Price** at desktop
   
