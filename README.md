@@ -60,7 +60,7 @@ The task is to design a grid of product cards with the following features:
 
 #### Product Card holder div Stying 
 
-- [ ] Layout, Padding, Margin style for the Product cards holder at desktop
+- [x] Layout, Padding, Margin style for the Product cards holder at desktop
 
 - [ ] Layout, Padding, Margin style for the Product cards holder at mobile
 
