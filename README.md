@@ -48,7 +48,7 @@ The task is to design a grid of product cards with the following features:
 
 - [x] Product Cards Displaying Div Design
 
-- [ ] Show More Button Design
+- [x] Show More Button Design
 
 ### 2. **CSS Styling** ( TailwindCSS )
 
