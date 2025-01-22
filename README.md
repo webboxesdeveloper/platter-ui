@@ -62,7 +62,7 @@ The task is to design a grid of product cards with the following features:
 
 - [x] Layout, Padding, Margin style for the Product cards holder at desktop
 
-- [ ] Layout, Padding, Margin style for the Product cards holder at mobile
+- [x] Layout, Padding, Margin style for the Product cards holder at mobile
 
 #### Product Card Template Styling
 
