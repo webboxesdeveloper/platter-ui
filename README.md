@@ -46,7 +46,7 @@ The task is to design a grid of product cards with the following features:
 
 - [x] Header Design
 
-- [ ] Product Cards Displaying Div Design
+- [x] Product Cards Displaying Div Design
 
 - [ ] Show More Button Design
 
