@@ -70,13 +70,13 @@ The task is to design a grid of product cards with the following features:
   
 - [x] Layout, Padding, Margin style for the **Product Image** at mobile
   
-- [ ] Layout, Padding, Margin, Font style for the **Product Title**, **Rating and Review**, **Product Price** at desktop
+- [x] Layout, Padding, Margin, Font style for the **Product Title**, **Rating and Review**, **Product Price** at desktop
   
-- [ ] Layout, Padding, Margin, Font style for the **Product Title**, **Rating and Review**, **Product Price** at mobile
+- [x] Layout, Padding, Margin, Font style for the **Product Title**, **Rating and Review**, **Product Price** at mobile
 
 #### Show More Button Styling
 
-- [ ] **Desktop** Style
+- [x] **Desktop** Style
   
 - [ ] **Mobile** Style
 
