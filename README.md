@@ -78,7 +78,7 @@ The task is to design a grid of product cards with the following features:
 
 - [x] **Desktop** Style
   
-- [ ] **Mobile** Style
+- [x] **Mobile** Style
 
 #### Scroll Bar Styling
 
