@@ -88,12 +88,12 @@ The task is to design a grid of product cards with the following features:
 
 #### Image replacing
 
-- [ ] Replace images from the [Unsplash](https://unsplash.com/) as placeholder iamge
+- [x] Replace images from the [Unsplash](https://unsplash.com/) as placeholder iamge
 
 ### 3. **JavaScript Functionality** ( VanillaJS )
 
-- [ ] Assign dynamic product cards to the holder div as the template card
+- [x] Assign dynamic product cards to the holder div as the template card
   
-- [ ] Implement Show More button behavior
+- [x] Implement Show More button behavior
 
 ### 4. **Testing & Debugging**
