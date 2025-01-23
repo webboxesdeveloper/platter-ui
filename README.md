@@ -82,9 +82,9 @@ The task is to design a grid of product cards with the following features:
 
 #### Scroll Bar Styling
 
-- [ ] **Custom scrollbar** with specified color and height at **Desktop**
+- [x] **Custom scrollbar** with specified color and height at **Desktop**
   
-- [ ] **Custom scrollbar** hidden at **Mobile**
+- [x] **Custom scrollbar** hidden at **Mobile**
 
 #### Image replacing
 

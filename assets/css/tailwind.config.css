@@ -1,0 +1,20 @@
+@layer utilities {
+    .scrollbar-custom::-webkit-scrollbar {
+      height: 4px;
+      transition: height 0.3s ease;
+    }
+
+    .scrollbar-custom::-webkit-scrollbar-thumb {
+      background: #666;
+      border-radius: 10px;
+      transition: background 0.3s ease;
+    }
+
+    .scrollbar-custom:hover::-webkit-scrollbar {
+      height: 12px;
+    }
+
+    .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+      background: #000;
+    } 
+  }
