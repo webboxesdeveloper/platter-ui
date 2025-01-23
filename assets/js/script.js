@@ -31,7 +31,7 @@ const imageArr = [
     {
       image1: './assets/images/c-d-x-dBwadhWa-lI-unsplash.jpg',
       image2: './assets/images/9a81236cedf58d1edefc6c5d5d6995e1.jpg',
-      title: 'Premium Stereo Headphones',
+      title: 'Premium Headphones',
       price: (79.95).toLocaleString(),
       review_number: (253).toLocaleString(),
       rating: 3
@@ -39,11 +39,10 @@ const imageArr = [
     {
       image1: './assets/images/dimitar-stevcev-a_uKaD4c5VI-unsplash.jpg',
       image2: './assets/images/mason-hassoun-6vfhe6AuBA4-unsplash.jpg',
-      title: 'Windproof Refillable Lighter',
+      title: 'Windproof Lighter',
       price: (19.95).toLocaleString(),
-      review_number: (5611222).toLocaleString(),
+      review_number: (561).toLocaleString(),
       rating: 4
-
     },
     {
       image1: './assets/images/fiqih-alfarish-UX6jAZ7r9U0-unsplash.jpg',
@@ -95,22 +94,22 @@ const productDivTemplate = (product) => `
     <img
       src="${product.image1}"
       alt="Product Image"
-      class="rounded-md md:w-[355px] md:h-[355px] w-[185px] h-[185px] object-cover transition-opacity duration-300"
+      class="md:w-[355px] md:h-[355px] w-[185px] h-[185px] object-cover rounded-[10px] transition-opacity duration-300"
     />
     <img
       src="${product.image2}"
       alt="Secondary Image"
-      class="md:w-[355px] md:h-[355px] w-[185px] h-[185px] object-cover rounded-md absolute top-0 left-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+      class="md:w-[355px] md:h-[355px] w-[185px] h-[185px] object-cover rounded-[10px] absolute top-0 left-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
     />
    </div>
-    <span class="absolute top-2 left-2 bg-white border border-black text-black md:text-[10px] md:leading-[12px] text-[8px] leading-[10px] px-2 py-1 rounded-full bebas-neue">
+    <span class="absolute top-2 left-2 bg-white border border-black text-black md:text-[10px] md:tracking-[0.6px] md:leading-[12px] text-[8px] leading-[9.6px] tracking-[0.32px] px-2 py-1 rounded-full bebas-neue">
       Best Seller
     </span>
-    <span class="absolute top-2 right-2 bg-[#5C7962] border border-black text-white md:text-[10px] md:leading-[12px] text-[8px] leading-[10px] px-2 py-1 rounded-full bebas-neue">
+    <span class="absolute top-2 right-2 bg-[#5C7962] border border-black text-white md:text-[10px] md:tracking-[0.6px] md:leading-[12px] text-[8px] leading-[9.6px] tracking-[0.32px] px-2 py-1 rounded-full bebas-neue">
       Save 15%
     </span>
-    <div class="grid gap-y-1 my-4 px-2 text-sm">
-      <h2 class="md:text-lg text-base bebas-neue">${product.title}</h2>
+    <div class="grid gap-y-2 my-4 px-2 text-sm">
+      <h2 class="md:text-[18px] md:leading-[21.6px] md:tracking-[0.54px] text-[#1C1D1D] text-[16px] leading-[19.2px] tracking-[0.48px] bebas-neue">${product.title}</h2>
       <div class="inline-flex items-center">
       ${[...Array(5)].map((_, i) => `
         <svg xmlns="http://www.w3.org/2000/svg" fill="${i < product.rating ? 'black' : 'none'}" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3 text-black">
@@ -119,9 +118,9 @@ const productDivTemplate = (product) => `
           </path>
         </svg>
       `).join('')}
-      <span class="text-gray-600 md:text-xs text-[11px] poppins-400"> ${product.review_number} Reviews</span>
+      <span class="md:text-[12px] md:leading-[18px] text-[#707070] text-[11px] leading-[16.5px] ml-1 poppins-400"> ${product.review_number} Reviews</span>
     </div>
-      <p class="text-gray-900 text-base poppins-500">$${product.price}</p>
+      <p class="text-[#1C1D1D] text-[16px] leading-[24px] poppins-500">$${product.price}</p>
     </div>
   </div>
 `;
