@@ -19,6 +19,11 @@
       height: 6px;
   }
 
+  .scrollbar-custom:hover::-webkit-scrollbar-track {
+      height: 6px;
+      background: #DDD6D7;
+  }
+
   .scrollbar-custom::-webkit-scrollbar-thumb:hover {
       background: #000;
   }
